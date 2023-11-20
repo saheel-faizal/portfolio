@@ -185,9 +185,9 @@
             <button class="navbar-link" data-nav-link>Blog</button>
           </li> -->
 
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
+          </li> -->
 
         </ul>
 
@@ -602,19 +602,19 @@
               <h4 class="h4 timeline-item-title">Jr. Flutter Developer</h4>
 
               <span>2021 June — 2022 May</span>
- 
+
               <p class="timeline-text">
                 - Learn reliable and optimised code techniques.<br>
                 - Learn to implement how to implement OOP concepts<br>
                 - Developed ecommerce application and store admin
                 application.<br>
-                
+
 
               </p>
 
             </li>
 
-           
+
 
           </ol>
 
@@ -702,25 +702,25 @@
 
           <ul class="filter-list">
 
-            <li class="filter-item">
+            <!-- <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
 
             <li class="filter-item">
               <button data-filter-btn>Web design</button>
-            </li>
+            </li> -->
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button class="active" data-filter-btn>Applications</button>
             </li>
 
-            <li class="filter-item">
+            <!-- <li class="filter-item">
               <button data-filter-btn>Web development</button>
-            </li>
+            </li> -->
 
           </ul>
 
-          <div class="filter-select-box">
+          <div class="filter-select-box">f
 
             <button class="filter-select" data-select>
 
@@ -756,7 +756,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -764,7 +764,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <!-- <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title">ClearNSale - ecommerce</h3>
@@ -774,7 +774,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -782,7 +782,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <!-- <img src="./assets/images/project-2.png" alt="orizon" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title">Skippy Restaurant-Customer Applications</h3>
@@ -792,7 +792,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -800,7 +800,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <!-- <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title">TaskForces</h3>
@@ -818,10 +818,10 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <!-- <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy"> -->
                 </figure>
 
-                <h3 class="project-title">WorkForce Time</h3>
+                <h3 class="project-title">WorkForce Time </h3>
 
                 <p class="project-category">Mobile Application</p>
 
@@ -830,9 +830,9 @@
 
 
 
-          
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -840,7 +840,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <!-- <img src="./assets/images/project-7.png" alt="summary" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title"> The Dictionary</h3>
@@ -858,7 +858,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <!-- <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title">Task Manager</h3>
@@ -868,7 +868,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -876,7 +876,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <!-- <img src="./assets/images/project-9.png" alt="arrival" loading="lazy"> -->
                 </figure>
 
                 <h3 class="project-title">Vanforces</h3>
@@ -1110,7 +1110,7 @@
 
           <!-- <h3 class="h3 form-title">Contact Form</h3> -->
 
-          <form action="#" class="form" data-form>
+          <form class="form" onsubmit="sendEmail(); reset(); return false;" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1120,7 +1120,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -1150,6 +1150,25 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "saheelfaizal@gmail.com",
+        Password: "password",
+        To: 'saheelfaizalsbackup@gmail.com',
+        From: document.getElementById('email').value,
+        Subject: "Enquiry from saheels portfolio",
+        Body: document.getElementById('message').value
+      }).then(
+        message => alert(message),
+        print(message)
+      );
+    }
+
+  </script>
 
 </body>
 
